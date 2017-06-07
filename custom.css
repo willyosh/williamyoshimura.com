@@ -1,0 +1,76 @@
+h1 {
+	font-family: 'Karla', sans-serif;
+	font-size: 6.5vw;
+	text-align: left;
+	color: #ffffff;
+	z-index: 1;
+  }
+
+a:link {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+a:visited{
+	color: #ffffff;
+}
+
+a:hover{
+	color: blue;
+}
+
+
+
+body{
+	background-color: rgba(0, 0, 0, 0.88);
+	color: white;
+}
+
+
+
+
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 97vh; /* These two lines are counted as one :-)       */
+
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	align-items: center;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 45vw;
+	height: 45vw;
+	background-color: #B4B4B4;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 38vw;
+	right: 0;
+	opacity: 0.5;
+}
+
+.top{
+	z-index: 2;
+
+
+
+}
+
+@media (max-width: 991px) and (min-width: 600px) {
+	h1 {
+		font-size: 9vw;
+		z-index: 1;
+		margin: 0 50px 0px 50px;
+	  }
+}
+
+@media (max-width: 599px) and (min-width: 300px) {
+	h1 {
+		font-size: 12vw;
+		z-index: 1;
+		margin: 0 20px 0px 20px;
+	  }
+}
